@@ -1,13 +1,15 @@
 #Introduction
 
 According to the Center of Disease Control and Prevention, heart disease is the leading cause of deaths in the United States. This disease affects many patients and their families’ lives regardless of characteristics such as age, gender, or race. For this reason, it important to determine the variables that can diagnose heart disease so that preventative measures can be implemented. These measures will serve to save time and money for the individuals and society. 
-In this project, our team will investigate the relationships between factors that lead to heart disease. Some of these factors include: sex of patients, exercise induced angina, type of chest pain patients experience, resting blood pressure, age, and maximum heart rate 
+
+In this project, our team will investigate the relationships between factors that lead to heart disease. Some of these factors include: sex of patients, exercise induced angina, type of chest pain patients experience, resting blood pressure, age, and maximum heart rate.
+
 Some questions we will be investigating are:
-Is there any association between an individual's sex and whether they experience exercise induced angina?
-Do patients who experience atypical chest pain have a higher resting blood pressure as compared to patients who experience typical chest pain? 
-Does the maximum heart rate of patients decrease as their age increases?
+*Is there any association between an individual's sex and whether they experience exercise induced angina?
+*Do patients who experience atypical chest pain have a higher resting blood pressure as compared to patients who experience typical chest pain? 
+*Does the maximum heart rate of patients decrease as their age increases?
 	
-	It is commonly believed that experiencing angina is indicative of heart disease. Angina, also known as myocardial ischemia, is a sharp pain in the chest. This pain occurs when an area of the heart does not receive enough oxygenated blood and causes discomfort for the individuals, and is most notable during exercise because the heart needs oxygenated blood. Since males are more active than females,2 our study explores if males experience exercise induced angina more readily than females.
+It is commonly believed that experiencing angina is indicative of heart disease. Angina, also known as myocardial ischemia, is a sharp pain in the chest. This pain occurs when an area of the heart does not receive enough oxygenated blood and causes discomfort for the individuals, and is most notable during exercise because the heart needs oxygenated blood. Since males are more active than females,2 our study explores if males experience exercise induced angina more readily than females.
 Furthermore, since pain associated with angina is chronic, we assume that patients with angina will experience typical chest pain. Patients with cardiovascular disease will have high resting blood pressure, so it is reasonable to assume that patients who experience typical chest pain will have a significantly higher resting blood pressure because they are most likely to have cardiovascular disease. Our study aims to determine if patients with typical chest pain actually do have significantly higher resting blood pressure.
 Finally, studies have shown that with age, the maximal heart rate decreases in individuals because the heart is less able to handle the stress of high heart rate. To determine if this statement is true, our project aims to determine if age lowers maximum heart rate.
 Methods
