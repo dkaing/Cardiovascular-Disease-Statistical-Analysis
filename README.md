@@ -82,5 +82,7 @@ Our analysis shows that certain factors are highly associated with heart disease
 
 ## References
 Detrano, Robert, M.D., Ph.D. University of California - Irvine Machine Learning Database. July 1988. Raw data. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation, Long Beach, Cleveland.
+
 Eyler, Amy A. Environmental, Policy, and Cultural Factors Related to Physical Activity in a Diverse Sample of Women: The Women's Cardiovascular Health Network Project. New York: Haworth Medical, 2002. Print.
+
 Spacey, John. "Morning Radio Workouts in Japan: Bring on the Pain." Japan Talk. Japan Talk, 14 Aug. 2012. Web. 26 Apr. 2016.
