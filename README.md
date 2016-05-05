@@ -1,27 +1,38 @@
-#Introduction
+#Statistical Analysis of Factors Associated with Cardiovascular Disease 
+by Davin Kaing, Muhammad Waqas, and Shane Duan
+
+##Introduction
 
 According to the Center of Disease Control and Prevention, heart disease is the leading cause of deaths in the United States. This disease affects many patients and their families’ lives regardless of characteristics such as age, gender, or race. For this reason, it important to determine the variables that can diagnose heart disease so that preventative measures can be implemented. These measures will serve to save time and money for the individuals and society. 
 
 In this project, our team will investigate the relationships between factors that lead to heart disease. Some of these factors include: sex of patients, exercise induced angina, type of chest pain patients experience, resting blood pressure, age, and maximum heart rate.
 
 Some questions we will be investigating are:
-*Is there any association between an individual's sex and whether they experience exercise induced angina?
-*Do patients who experience atypical chest pain have a higher resting blood pressure as compared to patients who experience typical chest pain? 
-*Does the maximum heart rate of patients decrease as their age increases?
+- Is there any association between an individual's sex and whether they experience exercise induced angina?
+- Do patients with atypical chest pain have a higher resting blood pressure than patients who experience typical chest pain? 
+- Does the maximum heart rate of patients decrease as their age increases?
 	
 It is commonly believed that experiencing angina is indicative of heart disease. Angina, also known as myocardial ischemia, is a sharp pain in the chest. This pain occurs when an area of the heart does not receive enough oxygenated blood and causes discomfort for the individuals, and is most notable during exercise because the heart needs oxygenated blood. Since males are more active than females,2 our study explores if males experience exercise induced angina more readily than females.
+
 Furthermore, since pain associated with angina is chronic, we assume that patients with angina will experience typical chest pain. Patients with cardiovascular disease will have high resting blood pressure, so it is reasonable to assume that patients who experience typical chest pain will have a significantly higher resting blood pressure because they are most likely to have cardiovascular disease. Our study aims to determine if patients with typical chest pain actually do have significantly higher resting blood pressure.
 Finally, studies have shown that with age, the maximal heart rate decreases in individuals because the heart is less able to handle the stress of high heart rate. To determine if this statement is true, our project aims to determine if age lowers maximum heart rate.
-Methods
+
+##Methods
+
 The population of interest is those with cardiovascular disease who were treated at the Cleveland Clinic Foundation and were recorded in the dataset donated to the UC Irvine Machine Learning Repository by David Aha on 1988 July 1st.  This sample is not a random sample as the data is for patients that were treated at the specific clinic.
+
 The sample includes 303 members with 75 attributes. However, only 14 attributes have ever been used in major studies. In this study, we will use R to determine the associations between the following attributes:
-An individual's sex (male/female) and if they experience exercise induced angina (yes/no).
-An individual's chest pain type (typical/atypical) and resting blood pressure.
-Maximum heart rate and age.
+- An individual's sex (male/female) and if they experience exercise induced angina (yes/no).
+- An individual's chest pain type (typical/atypical) and resting blood pressure.
+- Maximum heart rate and age.
+
 If we consider our target population to be all people with heart disease, this population is biased. This project only considers those with heart disease in Cleveland. This will affect the results greatly, because of cultural differences: for example, those living in China and Japan have ready access to daily morning “radio exercises” for unity and to “warm up” for the day,3 whereas Americans have no such equivalent. Since a more active lifestyle (in this case, brought on by something unrelated to preventing heart disease) has been proven to reduce rates of heart disease, the results in America, for example, could be inaccurate in China and Japan. However, for those living in an environment and culture similar to that of Cleveland, this dataset is representative. 
-Results and Discussion
+
+##Results and Discussion
+
 For this project, there are three claims that are tested. These claims explore factors that are associated with heart disease. 
-Claim I 
+
+###Claim I 
 The first claim states that there is a higher proportion of male patients with exercise-induced angina (EIA) than female.To explore this, we first summarized the frequency and proportion of the two sexes and their association with induced angina (Table 1). As shown in Table 1 and Figure 1, males have a higher proportion that is linked to exercise-induced angina than females. 
 
 Table 1: Frequency and Proportion Table of Patient’s Sex and Status of EIA
