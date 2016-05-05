@@ -42,9 +42,11 @@ The first claim states that there is a higher proportion of male patients with e
 Since these are both categorical variables, we performed a two-sample proportion test under two assumptions: 
 The samples are independent since one population is male and the other is female
 The sample sizes are large enough:
-nmpm=74 ≥ 10 and nm(1-pm)=117 ≥ 10
-nfpf=18 ≥ 10 and nf(1-pf)=73 ≥ 10
+- nmpm=74 ≥ 10 and nm(1-pm)=117 ≥ 10
+- nfpf=18 ≥ 10 and nf(1-pf)=73 ≥ 10
+
 (Where nm= number of males, nf= number of females; pm= proportion of males with EIA, pf= proportion of females with EIA)
+
 The result from this test further support our claim. The p-value (Table 2) was calculated to be less than the significance level of 0.05, so it is appropriate to reject H0and conclude that there is a higher proportion of males with exercise induced angina than females at a 5% significance level.
 
 ![](http://i.imgur.com/YFLWyTV.png)
@@ -55,9 +57,10 @@ The second investigative question explores the association between the type of c
 ![](http://i.imgur.com/CkSENZP.png)
 
 To quantify the difference between these two groups, we used a two-sample t-test under the following assumptions: 
-The samples are independent because typical and atypical angina are not dependent. 
-The sample size is large as stated in the previous investigation. 
-The population variances are unknown and assumed to be unequal.
+- The samples are independent because typical and atypical angina are not dependent. 
+- The sample size is large as stated in the previous investigation. 
+- The population variances are unknown and assumed to be unequal.
+
 The reported p-value (Table 3) is less than the 5% significance level. We can thus reject H0 and conclude that the resting blood pressure of patients who experienced atypical angina is significantly less than that of those with typical angina at a 5% significance level.
 
 ![](http://i.imgur.com/jrn2Mk2.png)
@@ -69,10 +72,15 @@ Our last investigative question explores the correlation between the age of the 
 ![](http://i.imgur.com/J2EznEL.png)
 
 ##Conclusion
-From our analysis, we concluded that a higher proportion of male patients have exercise-induced angina than that of females. From our second investigation, we concluded that the atypical angina has a significantly lower resting blood pressure than the typical angina. Our final investigation reveals that the greater the patient’s age, the lower the maximum heart rate after exercise. 
-However, there are also limitations to this study. One of them is that the study cannot be generalized to the entire population of the world with heart disease – indeed, not even of the entire U.S. – since the data used is only collected from Cleveland, OH.
-Another limitation is that we do not know if the collected data is a simple random sample, as the author did not mention this at the data source. If it is not a random sample, the analysis can be biased. Whether the sample is representative of the entire population of study is also a concern because without a representative sample, the analysis can also generate biased results. 
-Possible ways to improve these limitations are to collect data that is representative of the entire population and to collect the data in a controlled environment over a long period of time. 
-For our first improvement, it is critical to have data that is representative of the entire population. This way, our analysis is more accurate and can be generalized to the entire population.
-Then, for our second improvement, we believe that collecting the data in a controlled setting (e.g. hospital) for a long period of time is highly beneficial because this can reduce confounding variables. Also, by collecting the data over time, we will be able to see the trend over time and this will help with the accuracy in our analysis. 
+From our analysis, we concluded that a higher proportion of male patients have exercise-induced angina than female. From our second investigation, we concluded that the atypical angina has a significantly lower resting blood pressure than the typical angina. Lastly, our final investigation reveals that the greater the patient’s age, the lower the maximum heart rate achieved after exercise. 
+
+However, there are also limitations to this study. One of them is that the study cannot be generalized to the entire population of the U.S. since the data used is only collected from Cleveland, OH. Another limitation is that we do not know if the collected data is a simple random sample, as the author did not mention this at the data source. If it is not a random sample, the analysis can be biased. Whether the sample is representative of the entire population of study is also a concern because without a representative sample, the analysis can also generate biased results. 
+
+Possible ways to improve these limitations are to collect data that is representative of the entire population and to collect the data in a controlled environment over a long period of time. For our first improvement, it is critical to have data that is representative of the entire population. This way, our analysis is more accurate and can be generalized to the entire population. As of our second improvement, we believe that collecting the data in a controlled setting (e.g. hospital) for a long period of time is highly beneficial because this can reduce confounding variables. Also by collecting the data over time, we will be able to see the trend over time and this will help with the accuracy in our analysis. 
+
 Our analysis shows that certain factors are highly associated with heart disease. These associations can potentially be used as a diagnostic tools to diagnose or predict heart disease in patients. Therefore, this powerful method can save many lives and have many useful biomedical applications.
+
+## References
+Detrano, Robert, M.D., Ph.D. University of California - Irvine Machine Learning Database. July 1988. Raw data. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation, Long Beach, Cleveland.
+Eyler, Amy A. Environmental, Policy, and Cultural Factors Related to Physical Activity in a Diverse Sample of Women: The Women's Cardiovascular Health Network Project. New York: Haworth Medical, 2002. Print.
+Spacey, John. "Morning Radio Workouts in Japan: Bring on the Pain." Japan Talk. Japan Talk, 14 Aug. 2012. Web. 26 Apr. 2016.
