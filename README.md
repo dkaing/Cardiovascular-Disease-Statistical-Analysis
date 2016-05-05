@@ -1,6 +1,6 @@
 #Statistical Analysis of Factors Associated with Cardiovascular Disease 
 by Davin Kaing, Muhammad Waqas, and Shane Duan
-
+![](http://i.imgur.com/OBzepBv.png?1)
 ##Introduction
 
 According to the Center of Disease Control and Prevention, heart disease is the leading cause of deaths in the United States. This disease affects many patients and their families’ lives regardless of characteristics such as age, gender, or race. For this reason, it important to determine the variables that can diagnose heart disease so that preventative measures can be implemented. These measures will serve to save time and money for the individuals and society. 
